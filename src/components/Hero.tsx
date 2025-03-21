@@ -56,7 +56,7 @@ const Hero = () => {
             <div className="flex flex-col items-center gap-6">
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20">
                 <img
-                  src="./images/profile_pic.jpg"
+                  src="/profile_pic.jpg"
                   alt="Rakesh Singh profile"
                   className="w-full h-full object-cover"
                 />
