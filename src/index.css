@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background-light dark:bg-background-dark text-text-light dark:text-text;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-text-light dark:text-text;
+  }
+}
+
+/* Dark mode transition */
+* {
+  transition-property: color, background-color, border-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+@layer utilities {
+  .section-title {
+    @apply text-3xl font-semibold text-center text-text-light dark:text-text mb-8 relative pb-4;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-[3px] bg-primary;
+  }
+}
