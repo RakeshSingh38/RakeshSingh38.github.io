@@ -15,7 +15,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <ScrollAnimation animation="fade-up" delay={200}>
             <p className="text-text-light dark:text-text mb-6 text-justify">
-              Hello, I'm Rakesh Singh, based in Bangalore, India. With a deep
+              Hello, I'm Rakesh Singh, based in Navi Mumbai, India. With a deep
               passion for technology, I'm on a quest to craft innovative solutions
               in the realms of Automation and Backend Development. But that's not
               all; I've got a keen interest in the fascinating world of Blockchain.
@@ -35,8 +35,7 @@ const About = () => {
 
           <ScrollAnimation animation="fade-up" delay={400}>
             <p className="text-text-light dark:text-text text-justify">
-              Outside my regular developer routine, I enjoy playing cricket,
-              watching movies, and listening to music.
+              Outside my regular developer routine, I enjoy playing cricket, watching movies, listening to music, and fixing bugs.
             </p>
           </ScrollAnimation>
         </div>
