@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center bg-background-light dark:bg-background-dark pt-16">
       {/* MatterJS background is added separately to the main component */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-32 z-10">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-          <div className="md:max-w-xl">
+          <div className="lg:px-4 md:max-w-xl">
             <ScrollAnimation animation="fade-up" delay={100} duration={800}>
               <span className="text-text-light dark:text-text mb-2 block">Hi there!</span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
 
           <ScrollAnimation animation="fade-left" delay={500} duration={1000}>
-            <div className="flex flex-col items-center gap-6">
+            <div className="flex flex-col items-center gap-6 lg:mr-3">
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20">
                 <img
                   src="/profile_pic.jpg"

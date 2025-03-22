@@ -14,8 +14,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="/" className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">RAKESH</h1>
+          <a href="/" className="lg:pl-2 md:px-6 flex-shrink-0">
+            <h1 className="text-2xl  font-bold text-primary">RAKESH</h1>
           </a>
 
           {/* Desktop Navigation */}

@@ -3,16 +3,16 @@ import ScrollAnimation from './ScrollAnimation';
 const About = () => {
   return (
     <section id="about" className="py-24 bg-background-light dark:bg-background-dark">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto sm:px-6 lg:px-8">
         <ScrollAnimation animation="fade-up" delay={100}>
           <div className="mb-12">
-            <h2 className="text-3xl font-semibold text-center text-text-light dark:text-text mb-8 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-12 after:h-[3px] after:bg-primary">
+            <h2 className="text-3xl font-semibold text-center  text-text-light dark:text-text mb-8 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-[3px] after:animate-pulse after:opacity-100 after:brightness-100 after:bg-primary">
               About
             </h2>
           </div>
         </ScrollAnimation>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <ScrollAnimation animation="fade-up" delay={200}>
             <p className="text-text-light dark:text-text mb-6 text-justify">
               Hello, I'm Rakesh Singh, based in Navi Mumbai, India. With a deep

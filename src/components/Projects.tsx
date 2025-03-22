@@ -160,7 +160,7 @@ const Projects = () => {
       technologies: "HTML, CSS, JS",
       githubUrl: 'https://github.com/RakeshSingh38/Portfolio-Website',
       liveUrl: "https://rakesh-singh-portfolio.vercel.app/",
-      imageUrl: "https://ext.same-assets.com/1997590182/3455415243.png"
+      imageUrl: "/portfolio.png"
     }
   ];
 
@@ -172,10 +172,10 @@ const Projects = () => {
       githubUrl: "https://github.com/RakeshSingh38/TODO_list_API"
     },
     {
-      title: "Data-Structure-C",
-      description: "It contains some data structures such as Arrays, Strings, Stacks, Queue and Tree implemented in C language.",
-      technologies: "C, DSA",
-      githubUrl: "https://github.com/RakeshSingh38/Data-Structure-C"
+      title: "Data Structure And Algorithms in Java",
+      description: "It contains some data structures such as Arrays, Strings, Stacks, Queue and Tree implemented in Java language.",
+      technologies: "Java, DSA",
+      githubUrl: "https://github.com/RakeshSingh38/Java-dsa"
     },
     {
       title: "Github Home Page",
@@ -187,10 +187,10 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-24 bg-background-light dark:bg-background-dark">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-36 sm:px-6">
         <ScrollAnimation animation="fade-up">
           <div className="mb-12">
-            <h2 className="text-3xl font-semibold text-center text-text-light dark:text-text mb-8 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-12 after:h-[3px] after:bg-primary">
+            <h2 className="text-3xl font-semibold text-center text-text-light dark:text-text mb-8 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-28 after:h-[3px] after:animate-pulse after:bg-primary">
               Projects
             </h2>
           </div>
@@ -214,13 +214,13 @@ const Projects = () => {
 
         <ScrollAnimation animation="fade-up">
           <div className="mb-12">
-            <h3 className="text-2xl font-semibold text-center text-text-light dark:text-text mb-8 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-8 after:h-[2px] after:bg-primary">
+            <h3 className="text-2xl font-semibold text-center after:animate-pulse after:brightness-125 text-text-light dark:text-text mb-8 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-64 after:h-[3px] after:bg-primary">
               Other Notable Projects
             </h3>
           </div>
         </ScrollAnimation>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:m-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {otherProjects.map((project, index) => (
             <SmallProjectCard
               key={index}

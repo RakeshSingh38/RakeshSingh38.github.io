@@ -31,10 +31,10 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen px-11 bg-background-light dark:bg-background-dark">
+    <div className='h-screen md:px-5 bg-background-light dark:bg-background-dark'>
       {/* <MatterBackground /> */}
       <Header />
-      <main className='px-20'>
+      <main className=''>
         <Hero />
         <About />
         <Projects />
